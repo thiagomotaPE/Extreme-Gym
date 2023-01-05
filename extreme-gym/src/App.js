@@ -1,11 +1,12 @@
 
 import { GlobalStyle } from './styles/global';
-import { Container } from './components/Container';
+
+import { Home } from './components/Home'
 
 function App() {
   return (<>
     <GlobalStyle />
-    <Container></Container>
+    <Home></Home>
 
   </> 
   );

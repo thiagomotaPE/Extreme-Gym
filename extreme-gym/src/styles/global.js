@@ -7,7 +7,19 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body {
-    background-color: #100000;
+    background-color: black;
     color: #FFFFFF;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh 50vh 50vh 50vh 50vh;
+    grid-template-areas: "home"
+                         "about"
+                         "services"
+                         "testimonials"
+                         "contact";
+
+
   }
+
 `
