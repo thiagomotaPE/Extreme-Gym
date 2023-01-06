@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
+    background-color: #141414;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,9 +13,12 @@ export const Logo = styled.h1`
     font-size: 2em;
     font-family: 'Anton';
     font-style: italic;
+
+    span{
+        color: #eaef23;
+    }
 `
 export const Navigation = styled.nav`
-    
 
 `
 export const Links = styled.a`
@@ -33,7 +37,7 @@ export const Links = styled.a`
 export const BurguerMenu = styled.button`
     color: #000;
     padding: 8px;
-    background-color: yellow;
+    background-color: #eaef23;
     border: none;
     border-radius: 3px;
     align-items: center;

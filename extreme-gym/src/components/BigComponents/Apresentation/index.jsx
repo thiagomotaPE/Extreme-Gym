@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { Background } from './styles'
+import { Background, Slogan } from './styles'
+import { Button } from '../../Button'
+
 
 const Apresentation = () => {
   return (
-    <Background></Background>
+    <Background>
+      <Slogan>SEJA SEU MELHOR</Slogan>
+      <Button></Button>
+    </Background>
   )
 }
 
