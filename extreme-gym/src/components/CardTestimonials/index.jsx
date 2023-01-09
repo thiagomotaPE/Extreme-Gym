@@ -1,10 +1,12 @@
 import React from 'react'
-import { CardDescription, CardPhoto } from './styles'
+import { Container, CardDescription, CardPhoto } from './styles'
 
 const CardTestimonials = () => {
   return (<>
-    <CardPhoto></CardPhoto>
-    <CardDescription></CardDescription>
+    <Container>
+      <CardPhoto></CardPhoto>
+      <CardDescription></CardDescription>
+    </Container>
     </>
   )
 }

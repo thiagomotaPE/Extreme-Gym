@@ -7,10 +7,16 @@ const Testimonials = () => {
   return (
     <Background>
       <TitleTestimonials>ANTES E DEPOIS</TitleTestimonials>
-      <div>
-        <CardTestimonials></CardTestimonials>
-        <CardTestimonials></CardTestimonials>
-        <CardTestimonials></CardTestimonials>
+      <div className='cardsContainer'>
+        <div class='cards'>
+          <CardTestimonials></CardTestimonials>
+        </div>
+        <div class='cards'>
+          <CardTestimonials></CardTestimonials>
+        </div>
+        <div class='cards'>
+          <CardTestimonials></CardTestimonials>
+        </div>
       </div>
     </Background>
   )

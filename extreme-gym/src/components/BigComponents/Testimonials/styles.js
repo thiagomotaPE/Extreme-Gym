@@ -4,9 +4,24 @@ export const Background = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
     background-color: #141414;
-    height: 160vh;
+    height: 190vh;
+    @media (min-width: 800px){
+        height: 100vh;
+    }
+
+    div.cardsContainer{
+        @media (min-width: 800px){
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    div.cards{
+        @media (min-width: 800px){
+            margin: 15px;
+        }
+    }
 `
 export const TitleTestimonials = styled.h2`
     font-family: 'Anton';
@@ -14,4 +29,7 @@ export const TitleTestimonials = styled.h2`
     font-size: 2.5rem;
     color: #eaef23;
     margin-bottom: 15px;
+    @media (min-width: 800px){
+        font-size: 5rem;
+    }
 `

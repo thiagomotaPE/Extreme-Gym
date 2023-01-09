@@ -7,7 +7,7 @@ export const Container = styled.header`
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px #eaef23;
 `
 export const Logo = styled.h1`
     font-size: 2em;

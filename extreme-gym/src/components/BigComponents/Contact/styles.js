@@ -13,6 +13,9 @@ export const Background = styled.div`
     background-size: cover;
     background-attachment: fixed;
     height: 55vh;
+    @media (min-width: 800px){
+        height: 80vh;
+    }
 
 `
 
@@ -22,4 +25,8 @@ export const TitleContact = styled.h1`
     font-size: 4rem;
     color: #eaef23;
     padding: 10px;
+    @media (min-width: 800px){
+        margin-left: 15px;
+        width: 300px;
+    }
 `

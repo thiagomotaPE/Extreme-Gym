@@ -6,9 +6,11 @@ import { CardContact  } from '../../CardContact'
 const Footer = () => {
   return (
     <Background>
-      <CardContact />
-      <CardContact />
-      <CardContact />
+      <div className='infos'>
+        <CardContact />
+        <CardContact />
+        <CardContact />
+      </div>
     </Background>
   )
 }
