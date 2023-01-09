@@ -1,10 +1,12 @@
 import React from 'react'
 
-import { Background } from './styles'
+import { Background, TitleContact } from './styles'
 
 const Contact = () => {
   return (
-    <Background></Background>
+    <Background>
+      <TitleContact>ENTRE EM CONTATO AINDA HOJE</TitleContact>
+    </Background>
   )
 }
 

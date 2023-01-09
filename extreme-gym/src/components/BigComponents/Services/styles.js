@@ -15,11 +15,12 @@ export const Background = styled.div`
 export const TitleServices = styled.h2`
     font-family: 'Anton';
     font-style: italic;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #eaef23;
 `
 export const SubTitleServices = styled.h3`
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1rem;
+    text-align: center;
 `
