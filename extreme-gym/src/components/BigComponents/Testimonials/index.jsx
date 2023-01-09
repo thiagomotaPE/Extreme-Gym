@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { Background } from './styles'
+import { Background, TitleTestimonials } from './styles'
+import { CardTestimonials } from '../../CardTestimonials'
 
 const Testimonials = () => {
   return (
-    <Background></Background>
+    <Background>
+      <TitleTestimonials>ANTES E DEPOIS</TitleTestimonials>
+      <div>
+        <CardTestimonials></CardTestimonials>
+        <CardTestimonials></CardTestimonials>
+        <CardTestimonials></CardTestimonials>
+      </div>
+    </Background>
   )
 }
 
