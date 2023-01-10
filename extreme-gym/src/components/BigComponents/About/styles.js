@@ -34,7 +34,9 @@ export const ResumeDescription = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     width: 310px;
+    text-align: center;
     @media (min-width: 800px){
+        text-align: initial;
         font-size: 1.5rem;
         width: 600px;
     }

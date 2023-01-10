@@ -1,9 +1,11 @@
 import React from 'react'
-import { Card } from './styles'
+import { Card, TitleCard } from './styles'
 
-const CardServices = () => {
+const CardServices = ({variant, title}) => {
   return (
-    <Card> </Card>
+    <Card variant={variant}>
+      <TitleCard>{title}</TitleCard>
+    </Card>
   )
 }
 

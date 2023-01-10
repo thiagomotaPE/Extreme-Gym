@@ -35,6 +35,6 @@ export const SubTitleServices = styled.h3`
     font-size: 1rem;
     text-align: center;
     @media (min-width: 800px){
-        font-size: 1.3rem;
+        font-size: 1.4rem;
     }
 `

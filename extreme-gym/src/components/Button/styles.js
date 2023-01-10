@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Button1 = styled.button`
     background-color: #eaef23;
@@ -10,5 +10,4 @@ export const Button1 = styled.button`
     font-size: 1.2rem;
     font-weight: bold;
     box-shadow: 5px 5px 5px #00000051;
-
 `

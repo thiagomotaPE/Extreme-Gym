@@ -11,9 +11,9 @@ const Services = () => {
         Estamos empenhados em trazer a melhor experiência e treino
       </SubTitleServices>
       <div>
-        <CardServices></CardServices>
-        <CardServices></CardServices>
-        <CardServices></CardServices>
+        <CardServices variant="service1" title="TOUR PELA ACADEMIA"></CardServices>
+        <CardServices variant="service2" title="AULAS EM GRUPO"></CardServices>
+        <CardServices variant="service3" title="PERSONAL TRAINNERS"></CardServices>
       </div>
     </Background>
   )
