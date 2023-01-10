@@ -15,11 +15,11 @@ const Header = () => {
           </span>Extreme
         </Logo>
         <Navigation>
-            <Links href='#'>Home</Links>
-            <Links href='#'>About</Links>
-            <Links href='#'>Services</Links>
-            <Links href='#'>Testimonials</Links>
-            <Links href='#'>Contact</Links>
+            <Links href='#home'>Home</Links>
+            <Links href='#about'>About</Links>
+            <Links href='#services'>Services</Links>
+            <Links href='#testimonials'>Testimonials</Links>
+            <Links href='#contact'>Contact</Links>
             <BurguerMenu>
               <span class="material-symbols-outlined">menu</span>
             </BurguerMenu>

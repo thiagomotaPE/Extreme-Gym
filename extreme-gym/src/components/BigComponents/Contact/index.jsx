@@ -4,7 +4,7 @@ import { Background, TitleContact } from './styles'
 
 const Contact = () => {
   return (
-    <Background>
+    <Background id='contact'>
       <TitleContact>ENTRE EM CONTATO AINDA HOJE</TitleContact>
     </Background>
   )

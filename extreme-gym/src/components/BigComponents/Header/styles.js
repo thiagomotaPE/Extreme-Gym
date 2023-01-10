@@ -28,6 +28,26 @@ export const Links = styled.a`
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
+    padding: 3px;
+
+    position: relative;
+
+    ::after{
+        content: " ";
+        background-color: #eaef23;
+        width: 0%;
+        height: 4px;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+
+        transition: 0.3s ease-in-out;
+    }
+
+    :hover::after{
+        width: 100%;
+    }
 
     @media (min-width: 600px){
         display: initial;

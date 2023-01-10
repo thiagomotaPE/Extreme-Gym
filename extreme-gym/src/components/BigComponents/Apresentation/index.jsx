@@ -6,7 +6,7 @@ import { Button } from '../../Button'
 
 const Apresentation = () => {
   return (
-    <Background>
+    <Background id='home'>
       <Slogan>SEJA SEU MELHOR</Slogan>
       <Button></Button>
     </Background>

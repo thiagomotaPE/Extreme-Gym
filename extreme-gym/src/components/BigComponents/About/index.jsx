@@ -4,7 +4,7 @@ import { Background, Description, TitleDescription, ResumeDescription, Img1, Img
 
 const About = () => {
   return (
-    <Background>
+    <Background id='about'>
       <Description>
         <TitleDescription>SOBRE A NOSSA EMPRESA</TitleDescription>
         <ResumeDescription>

@@ -5,7 +5,7 @@ import { CardTestimonials } from '../../CardTestimonials'
 
 const Testimonials = () => {
   return (
-    <Background>
+    <Background id='testimonials'>
       <TitleTestimonials>ANTES E DEPOIS</TitleTestimonials>
       <div className='cardsContainer'>
         <div class='cards'>
