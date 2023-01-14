@@ -8,6 +8,9 @@ export const Container = styled.header`
     justify-content: space-around;
     padding: 15px;
     border-bottom: solid 1px #eaef23;
+    @media (min-width: 600px){
+        
+    }
 `
 export const Logo = styled.h1`
     font-size: 2em;
@@ -19,12 +22,14 @@ export const Logo = styled.h1`
     }
 `
 export const Navigation = styled.nav`
-
+    display: none;
+    @media (min-width: 600px){
+        display: initial;
+    }
 `
 export const Links = styled.a`
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    display: none;
     color: #fff;
     text-decoration: none;
     margin-left: 20px;

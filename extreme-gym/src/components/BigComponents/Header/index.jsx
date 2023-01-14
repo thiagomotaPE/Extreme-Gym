@@ -1,7 +1,17 @@
 import React from 'react'
 import { Container, Logo, Navigation, Links, BurguerMenu } from './styles';
 
-const Header = () => {
+const Header = ({onClick}) => {
+
+  const clickMenu = () => {
+    const nav = document.getElementById('nav');
+    if(nav.style.display === "none"){
+      nav.style.display = "flex";
+    }else{
+      nav.style.display = "none";
+    }
+  }
+  
   return (<>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -14,16 +24,16 @@ const Header = () => {
             fitness_center
           </span>Extreme
         </Logo>
-        <Navigation>
+        <Navigation id='nav'>
             <Links href='#home'>Home</Links>
             <Links href='#about'>About</Links>
             <Links href='#services'>Services</Links>
             <Links href='#testimonials'>Testimonials</Links>
             <Links href='#contact'>Contact</Links>
-            <BurguerMenu>
-              <span class="material-symbols-outlined">menu</span>
-            </BurguerMenu>
         </Navigation>
+        <BurguerMenu onClick={clickMenu}>
+            <span class="material-symbols-outlined">menu</span>
+        </BurguerMenu>
     </Container>
     </>
   )
