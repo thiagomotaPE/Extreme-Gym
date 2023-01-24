@@ -23,8 +23,10 @@ export const Logo = styled.h1`
 `
 export const Navigation = styled.nav`
     display: none;
+    flex-direction: column;
     @media (min-width: 600px){
         display: initial;
+        flex-direction: row;
     }
 `
 export const Links = styled.a`
