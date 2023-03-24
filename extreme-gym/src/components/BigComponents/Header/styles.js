@@ -16,7 +16,8 @@ export const Container = styled.header`
     padding: 15px;
 
     border-bottom: solid 1px #eaef23;
-    @media (min-width: 600px){
+    @media (max-width: 600px){
+        position: relative;
         
     }
 `
@@ -67,6 +68,10 @@ export const Links = styled.a`
     @media (min-width: 600px){
         display: initial;
     }
+    @media (max-width: 600px){
+        position: fixed;
+
+    }
 
 `
 export const BurguerMenu = styled.button`
@@ -76,8 +81,16 @@ export const BurguerMenu = styled.button`
     border: none;
     border-radius: 3px;
     align-items: center;
+    cursor: pointer;
 
     @media (min-width: 600px){
         display: none;
+    }
+    @media (max-width: 600px){
+        position: fixed;
+        top: 89vh;
+        margin-left: 40vh;
+        border-radius: 50%;
+        box-shadow: -5px 1px 5px #00000070
     }
 `
