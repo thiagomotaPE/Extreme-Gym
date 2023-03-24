@@ -7,13 +7,14 @@ export const Container = styled.header`
     width: 100%;
     z-index: 100;
     top: 0;
+    
 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 15px;
-    
+
     border-bottom: solid 1px #eaef23;
     @media (min-width: 600px){
         

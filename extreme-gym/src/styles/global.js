@@ -10,6 +10,7 @@ export const GlobalStyle = createGlobalStyle`
 
   html{
     scroll-behavior: smooth;
+    scroll-padding-top: 70px;
   }
   
   body {
