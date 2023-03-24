@@ -20,7 +20,7 @@ const Header = ({onClick}) => {
 
     <Container>
         <Logo>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             fitness_center
           </span>Extreme
         </Logo>
@@ -32,7 +32,7 @@ const Header = ({onClick}) => {
             <Links href='#contact'>Contact</Links>
         </Navigation>
         <BurguerMenu onClick={clickMenu}>
-            <span class="material-symbols-outlined">menu</span>
+            <span className="material-symbols-outlined">menu</span>
         </BurguerMenu>
     </Container>
     </>
