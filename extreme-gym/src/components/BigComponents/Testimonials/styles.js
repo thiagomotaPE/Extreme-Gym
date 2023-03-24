@@ -28,6 +28,7 @@ export const TitleTestimonials = styled.h2`
     font-style: italic;
     font-size: 2.5rem;
     color: #eaef23;
+    margin-top: 25px;
     margin-bottom: 15px;
     @media (min-width: 800px){
         font-size: 5rem;
