@@ -2,11 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     background-color: #141414;
+
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 15px;
+    
     border-bottom: solid 1px #eaef23;
     @media (min-width: 600px){
         
@@ -42,7 +49,7 @@ export const Links = styled.a`
     ::after{
         content: " ";
         background-color: #eaef23;
-        width: 0%;
+        width: 0%;  
         height: 4px;
 
         position: absolute;
