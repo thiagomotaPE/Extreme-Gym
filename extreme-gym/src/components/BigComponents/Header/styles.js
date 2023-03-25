@@ -18,7 +18,6 @@ export const Container = styled.header`
     border-bottom: solid 1px #eaef23;
     @media (max-width: 600px){
         position: relative;
-        
     }
 `
 export const Logo = styled.h1`
@@ -44,7 +43,6 @@ export const Links = styled.a`
     color: #fff;
     text-decoration: none;
     margin-left: 20px;
-    padding: 3px;
 
     position: relative;
 
@@ -67,10 +65,12 @@ export const Links = styled.a`
 
     @media (min-width: 600px){
         display: initial;
+        padding: 3px;
     }
     @media (max-width: 600px){
         position: fixed;
-
+        top: 65vh;
+        left: 35vh;
     }
 
 `
