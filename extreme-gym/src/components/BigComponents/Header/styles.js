@@ -2,38 +2,47 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     background-color: #141414;
-
+    
+    padding: 8px;
     position: fixed;
-    width: 100%;
     z-index: 100;
     top: 0;
-    
+    right: -16px;
+    height: 100vh;
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 15px;
-
-    border-bottom: solid 1px #eaef23;
-    @media (max-width: 600px){
-        position: relative;
+    @media (min-width: 600px){
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        top: 0;
+        right: initial;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+        align-items: center;
+        border-bottom: solid 1px #eaef23;
+        height: 12vh;
+        
     }
 `
 export const Logo = styled.h1`
-    font-size: 2em;
-    font-family: 'Anton';
-    font-style: italic;
-
+    display: none;
     span{
         color: #eaef23;
     }
-`
-export const Navigation = styled.nav`
-    display: none;
-    flex-direction: column;
     @media (min-width: 600px){
         display: initial;
+        font-size: 2em;
+        font-family: 'Anton';
+        font-style: italic;
+    }
+`
+export const Navigation = styled.nav`
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 600px){
+        display: flex;
         flex-direction: row;
     }
 `
@@ -42,9 +51,9 @@ export const Links = styled.a`
     font-weight: bold;
     color: #fff;
     text-decoration: none;
-    margin-left: 20px;
+    margin: 40px;
+    
 
-    position: relative;
 
     ::after{
         content: " ";
@@ -56,7 +65,7 @@ export const Links = styled.a`
         bottom: 0;
         left: 0;
 
-        transition: 0.3s ease-in-out;
+        transition: 0.4s ease-in-out;
     }
 
     :hover::after{
@@ -66,11 +75,7 @@ export const Links = styled.a`
     @media (min-width: 600px){
         display: initial;
         padding: 3px;
-    }
-    @media (max-width: 600px){
-        position: fixed;
-        top: 65vh;
-        left: 35vh;
+        margin-left: 20px;
     }
 
 `
@@ -89,7 +94,7 @@ export const BurguerMenu = styled.button`
     @media (max-width: 600px){
         position: fixed;
         top: 85vh;
-        right: 30px;
+        right: 55px;
         margin-left: 40vh;
         border-radius: 50%;
         padding: 15px;
