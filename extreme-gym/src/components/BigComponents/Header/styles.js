@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     background-color: #141414;
-    
+    display: none;
     padding: 8px;
     position: fixed;
     z-index: 100;
@@ -87,6 +87,8 @@ export const BurguerMenu = styled.button`
     border-radius: 3px;
     align-items: center;
     cursor: pointer;
+    z-index: 100;
+    top: 0;
 
     @media (min-width: 600px){
         display: none;
