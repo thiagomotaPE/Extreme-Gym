@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     background-color: #141414;
-    display: none;
+    
     padding: 8px;
     position: fixed;
     z-index: 100;
     top: 0;
-    right: -16px;
+    right: -191px;
     height: 100vh;
 
+    transition: right .8s;
+    
     @media (min-width: 600px){
         position: fixed;
         width: 100%;

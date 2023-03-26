@@ -6,21 +6,20 @@ const Header = ({onClick}) => {
   const clickMenu = () => {
     const nav = document.getElementById('nav');
     const menuIcon = document.getElementById('menuIcon');
-    if(nav.style.display === "none"){
-      nav.style.display = "flex";
+    if(nav.style.right === "-191px"){
+      nav.style.right = "-16px";
       menuIcon.innerHTML = "Close";
     }else{
-      nav.style.display = "none";
+      nav.style.right = "-191px";
       menuIcon.innerHTML = "Menu";
     }
   }
   const clickNav = () => {
     const nav = document.getElementById('nav');
     const menuIcon = document.getElementById('menuIcon');
-    if(nav.style.display === "flex"){
-      nav.style.display = "none";
+    if(nav.style.right === "-16px"){
+      nav.style.right = "-191px";
       menuIcon.innerHTML = "Menu";
-
     }
   }
   
