@@ -9,6 +9,7 @@ export const Container = styled.header`
     top: 0;
     right: -191px;
     height: 100vh;
+    box-shadow: 0 0 10px #141414;
 
     transition: right .8s;
     
