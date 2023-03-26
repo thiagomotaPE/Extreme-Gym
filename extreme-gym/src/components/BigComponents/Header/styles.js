@@ -52,9 +52,8 @@ export const Links = styled.a`
     color: #fff;
     text-decoration: none;
     margin: 40px;
+    position: relative;
     
-
-
     ::after{
         content: " ";
         background-color: #eaef23;
@@ -96,7 +95,7 @@ export const BurguerMenu = styled.button`
     @media (max-width: 600px){
         position: fixed;
         top: 85vh;
-        right: 50px;
+        right: 55px;
         margin-left: 40vh;
         border-radius: 50%;
         padding: 15px;

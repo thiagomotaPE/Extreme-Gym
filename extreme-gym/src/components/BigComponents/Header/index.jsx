@@ -14,6 +14,15 @@ const Header = ({onClick}) => {
       menuIcon.innerHTML = "Menu";
     }
   }
+  const clickNav = () => {
+    const nav = document.getElementById('nav');
+    const menuIcon = document.getElementById('menuIcon');
+    if(nav.style.display === "flex"){
+      nav.style.display = "none";
+      menuIcon.innerHTML = "Menu";
+
+    }
+  }
   
   return (<>
 
@@ -28,11 +37,11 @@ const Header = ({onClick}) => {
           </span>Extreme
         </Logo>
         <Navigation>
-            <Links href='#home' onClick={clickMenu}>Home</Links>
-            <Links href='#about'onClick={clickMenu}>About</Links>
-            <Links href='#services' onClick={clickMenu}>Services</Links>
-            <Links href='#testimonials' onClick={clickMenu}>Testimonials</Links>
-            <Links href='#contact' onClick={clickMenu}>Contact</Links>
+            <Links href='#home' onClick={clickNav}>Home</Links>
+            <Links href='#about'onClick={clickNav}>About</Links>
+            <Links href='#services' onClick={clickNav}>Services</Links>
+            <Links href='#testimonials' onClick={clickNav}>Testimonials</Links>
+            <Links href='#contact' onClick={clickNav}>Contact</Links>
         </Navigation>
         
     </Container>
