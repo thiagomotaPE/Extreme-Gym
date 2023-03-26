@@ -94,7 +94,7 @@ export const BurguerMenu = styled.button`
     @media (max-width: 600px){
         position: fixed;
         top: 85vh;
-        right: 55px;
+        right: 50px;
         margin-left: 40vh;
         border-radius: 50%;
         padding: 15px;

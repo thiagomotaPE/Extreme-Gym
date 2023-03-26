@@ -11,6 +11,10 @@ export const GlobalStyle = createGlobalStyle`
   html{
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
+
+    @media (max-width: 600px){
+      scroll-padding-top: 0px;  
+    }
   }
   
   body {
