@@ -2,7 +2,6 @@ import React from 'react'
 
 import { Background, Slogan } from './styles'
 import { Button } from '../../Button'
-import { Variants } from 'framer-motion'
 
 const sloganAnimate={
   offscreen:{

@@ -1,8 +1,9 @@
 import styled from "styled-components";
 import AboutImg1 from '../../../assets/img/sobreNos1.jpg'
 import AboutImg2 from '../../../assets/img/sobreNos2.jpg'
+import { motion } from "framer-motion";
 
-export const Background = styled.div`
+export const Background = styled(motion.div)`
     background-color: #141414;
     height: 130vh;
     display: flex;
@@ -17,10 +18,10 @@ export const Background = styled.div`
         align-items: initial;
     }
 `
-export const Description = styled.div`
+export const Description = styled(motion.div)`
     margin: 20px;
 `
-export const TitleDescription = styled.h2`
+export const TitleDescription = styled(motion.h2)`
     font-size: 3em;
     font-family: 'Anton';
     font-style: italic;
@@ -30,7 +31,7 @@ export const TitleDescription = styled.h2`
     }
 `
 
-export const ResumeDescription = styled.p`
+export const ResumeDescription = styled(motion.p)`
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     width: 310px;
@@ -41,7 +42,7 @@ export const ResumeDescription = styled.p`
         width: 600px;
     }
 `
-export const Img1 = styled.div`
+export const Img1 = styled(motion.div)`
     background-color: yellow;
     background-image: url(${AboutImg1});
     background-position: center center;
@@ -59,7 +60,7 @@ export const Img1 = styled.div`
     }
 
 `
-export const Img2 = styled.div`
+export const Img2 = styled(motion.div)`
     background-color: yellow;
     background-image: url(${AboutImg2});
     background-position: center center;
