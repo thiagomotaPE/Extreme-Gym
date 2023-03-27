@@ -3,10 +3,34 @@ import React from 'react'
 import { Background, TitleTestimonials } from './styles'
 import { CardTestimonials } from '../../CardTestimonials'
 
+const titleAnimate={
+  offscreen:{
+    x: 100,
+    opacity: 0
+  },
+
+  onscreen:{
+    x: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      bounce: 0,
+      duration:1
+    }
+  }
+}
+
 const Testimonials = () => {
   return (
-    <Background id='testimonials'>
-      <TitleTestimonials>ANTES E DEPOIS</TitleTestimonials>
+    <Background id='testimonials'
+      initial={"offscreen"}
+      whileInView={"onscreen"}
+      viewport={{once:false, amount:0.7}}
+      transition={{staggerChildren: 0.5}}
+    >
+      <TitleTestimonials
+        variants={titleAnimate}
+      >ANTES E DEPOIS</TitleTestimonials>
       <div className='cardsContainer'>
         <div className='cards'>
           <CardTestimonials variant="testimonials1" description="Depoimentos são citações curtas de clientes. É uma otima forma de convencer novos clientes a experimentar seus serviços.Tomas Costas, 32"/>

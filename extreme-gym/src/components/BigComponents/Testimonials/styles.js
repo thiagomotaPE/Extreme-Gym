@@ -1,6 +1,7 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const Background = styled.div`
+export const Background = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +24,7 @@ export const Background = styled.div`
         }
     }
 `
-export const TitleTestimonials = styled.h2`
+export const TitleTestimonials = styled(motion.h2)`
     font-family: 'Anton';
     font-style: italic;
     font-size: 2.5rem;

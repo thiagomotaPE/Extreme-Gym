@@ -1,9 +1,10 @@
+import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 import Testimonials1 from '../../assets/img/testimonials1.jpg'
 import Testimonials2 from '../../assets/img/testimonials2.jpg'
 import Testimonials3 from '../../assets/img/testimonials3.jpg'
 
-export const Container = styled.div`
+export const Container = styled(motion.div)`
     
 `
 
@@ -39,7 +40,7 @@ export const CardPhoto = styled.div`
     }
 `
 
-export const CardDescription = styled.div`
+export const CardDescription = styled(motion.div)`
     background-color: #eaef23;
     width: 200px;
     height: 20vh;
