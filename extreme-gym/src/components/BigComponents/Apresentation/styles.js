@@ -16,12 +16,13 @@ export const Background = styled.div`
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-`
-export const Slogan = styled.h1`
-    font-family: 'Anton';
-    font-style: italic;
-    font-size: 8rem;
-    @media(max-width: 600px){
-        font-size: 4rem;
+
+    h1{
+        font-family: 'Anton';
+        font-style: italic;
+        font-size: 8rem;
+        @media(max-width: 600px){
+            font-size: 4rem;
+        }
     }
 `
