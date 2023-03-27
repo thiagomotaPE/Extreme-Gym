@@ -14,8 +14,7 @@ const cardAnimate={
     transition: {
       type: "spring",
       bounce: 0,
-      duration:0.6,
-      delay:0.8
+      duration:0.6
     }
   }
 }
