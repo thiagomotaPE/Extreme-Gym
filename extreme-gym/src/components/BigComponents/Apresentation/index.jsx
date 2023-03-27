@@ -5,7 +5,7 @@ import { Button } from '../../Button'
 
 const sloganAnimate={
   offscreen:{
-    x: 100,
+    x: 46,
     opacity: 0
   },
 

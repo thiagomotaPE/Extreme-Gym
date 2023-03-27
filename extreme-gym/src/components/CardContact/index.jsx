@@ -9,7 +9,7 @@ const cardAnimate={
   },
 
   onscreen:{
-    x: 0,
+    x: 1,
     opacity: 1,
     transition: {
       type: "spring",

@@ -5,7 +5,7 @@ import { CardServices } from '../../CardServices'
 
 const titleAnimate={
   offscreen:{
-    x: 100,
+    x: 20,
     opacity: 0
   },
 
