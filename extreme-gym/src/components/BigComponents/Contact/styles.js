@@ -1,7 +1,8 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 import BackgroundImg from '../../../assets/img/backgroundContact1.jpg'
 
-export const Background = styled.div`
+export const Background = styled(motion.div)`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +20,7 @@ export const Background = styled.div`
 
 `
 
-export const TitleContact = styled.h1`
+export const TitleContact = styled(motion.h1)`
     font-family: 'Anton';
     font-style: italic;
     font-size: 4rem;
