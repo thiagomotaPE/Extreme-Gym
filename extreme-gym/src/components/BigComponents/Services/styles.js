@@ -1,6 +1,7 @@
+import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const Background = styled.div`
+export const Background = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,7 +21,7 @@ export const Background = styled.div`
         }
     }
 `
-export const TitleServices = styled.h2`
+export const TitleServices = styled(motion.h2)`
     font-family: 'Anton';
     font-style: italic;
     font-size: 2.5rem;
@@ -29,7 +30,7 @@ export const TitleServices = styled.h2`
         font-size: 5rem;
     }
 `
-export const SubTitleServices = styled.h3`
+export const SubTitleServices = styled(motion.h3)`
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 1rem;

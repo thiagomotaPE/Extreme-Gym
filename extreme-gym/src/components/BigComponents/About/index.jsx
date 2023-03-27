@@ -14,8 +14,7 @@ const descriptionAnimate={
     transition: {
       type: "spring",
       bounce: 0,
-      duration:1,
-      dalay:1
+      duration:1
     }
   }
 }
@@ -52,7 +51,7 @@ const About = () => {
             type: "spring",
             bounce: 0,
             duration:1,
-            delay:0.6
+            delay:0.4
           }
         }}
       ></Img1>
@@ -70,7 +69,7 @@ const About = () => {
             type: "spring",
             bounce: 0,
             duration:1,
-            delay:0.6
+            delay:0.4
           }
         }}
       ></Img2>

@@ -1,9 +1,10 @@
+import { motion } from "framer-motion";
 import styled, { css } from "styled-components";
 import Service1 from '../../assets/img/servicos1.jpg'
 import Service2 from '../../assets/img/servicos2.jpg'
 import Service3 from '../../assets/img/servicos3.jpg'
 
-export const Card = styled.div`
+export const Card = styled(motion.div)`
     background-color: #eaef23;
     width: 200px;
     height: 40vh;
