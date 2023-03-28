@@ -5,17 +5,35 @@ import { CardServices } from '../../CardServices'
 
 const titleAnimate={
   offscreen:{
-    x: 30,
-    opacity: 1
+    x: 50,
+    opacity: 0
   },
 
   onscreen:{
-    x: 30,
+    x: 0,
     opacity: 1,
     transition: {
       type: "spring",
       bounce: 0,
       duration:1
+    }
+  }
+}
+
+const subtitleAnimate={
+  offscreen:{
+    y: 50,
+    opacity: 0
+  },
+
+  onscreen:{
+    y: 0,
+    opacity: 1,
+    transition: {
+      type: "spring",
+      bounce: 0,
+      duration:1,
+      delay:0.4
     }
   }
 }
@@ -32,7 +50,7 @@ const Services = () => {
         variants={titleAnimate}
       >O QUE OFERECEMOS</TitleServices>
       <SubTitleServices
-        variants={titleAnimate}
+        variants={subtitleAnimate}
       >
         Estamos empenhados em trazer a melhor experiência e treino
       </SubTitleServices>
