@@ -4,16 +4,16 @@ import { Background, TitleContact } from './styles'
 
 const titleAnimate={
   offscreen:{
-    x: 10,
-    opacity: 1
+    y: -80,
+    opacity: 0
   },
 
   onscreen:{
-    x: 10,
+    y: 0,
     opacity: 1,
     transition: {
       type: "spring",
-      bounce: 0,
+      bounce: 0.7,
       duration:1,
     }
   }
