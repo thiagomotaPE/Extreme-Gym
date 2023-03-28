@@ -6,11 +6,11 @@ import { CardTestimonials } from '../../CardTestimonials'
 const titleAnimate={
   offscreen:{
     x: 50,
-    opacity: 1
+    opacity: 0
   },
 
   onscreen:{
-    x: 50,
+    x: 0,
     opacity: 1,
     transition: {
       type: "spring",

@@ -6,11 +6,11 @@ import { Button } from '../../Button'
 const sloganAnimate={
   offscreen:{
     x: 70,
-    opacity: 1
+    opacity: 0
   },
 
   onscreen:{
-    x: 70,
+    x: 0,
     opacity: 1,
     transition: {
       type: "spring",
