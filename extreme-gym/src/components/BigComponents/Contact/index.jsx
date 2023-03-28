@@ -9,7 +9,7 @@ const titleAnimate={
   },
 
   onscreen:{
-    x: 40,
+    x: 10,
     opacity: 1,
     transition: {
       type: "spring",
