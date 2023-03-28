@@ -24,7 +24,7 @@ const About = () => {
     <Background id='about'
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{once:false, amount:0.7}}
+      viewport={{once:false, amount:0.3}}
       transition={{staggerChildren: 0.5}}
     >
       <Description>
@@ -38,40 +38,40 @@ const About = () => {
         </ResumeDescription>
       </Description>
       <Img1
-        initial={{
-          x: 0,
-          y:40,
-          opacity:0,
-        }}
-        whileInView={{
-          x:-100,
-          y:40,
-          opacity: 1,
-          transition: {
-            type: "spring",
-            bounce: 0,
-            duration:1,
-            delay:0.4
-          }
-        }}
+        // initial={{
+        //   x: 0,
+        //   y:40,
+        //   opacity:0,
+        // }}
+        // whileInView={{
+        //   x:-100,
+        //   y:40,
+        //   opacity: 1,
+        //   transition: {
+        //     type: "spring",
+        //     bounce: 0,
+        //     duration:1,
+        //     delay:0.4
+        //   }
+        // }}
       ></Img1>
       <Img2
-        initial={{
-          x: 0,
-          y:15,
-          opacity:0
-        }}
-        whileInView={{
-          x:-75,
-          y:15,
-          opacity: 1,
-          transition: {
-            type: "spring",
-            bounce: 0,
-            duration:1,
-            delay:0.4
-          }
-        }}
+        // initial={{
+        //   x: 0,
+        //   y:15,
+        //   opacity:0
+        // }}
+        // whileInView={{
+        //   x:-75,
+        //   y:15,
+        //   opacity: 1,
+        //   transition: {
+        //     type: "spring",
+        //     bounce: 0,
+        //     duration:1,
+        //     delay:0.4
+        //   }
+        // }}
       ></Img2>
     </Background>
   )

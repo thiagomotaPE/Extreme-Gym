@@ -23,10 +23,10 @@ const cardAnimate={
 const CardServices = ({variant, title}) => {
   return (
     <Card variant={variant}
-      initial={"offscreen"}
-      whileInView={"onscreen"}
-      viewport={{once:false, amount:0.6}}
-      variants={cardAnimate}
+      // initial={"offscreen"}
+      // whileInView={"onscreen"}
+      // viewport={{once:false, amount:0.6}}
+      // variants={cardAnimate}
     >
       <TitleCard>{title}</TitleCard>
     </Card>

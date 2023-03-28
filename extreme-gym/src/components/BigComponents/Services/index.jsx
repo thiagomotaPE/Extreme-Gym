@@ -25,7 +25,7 @@ const Services = () => {
     <Background id='services'
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{once:false, amount:0.7}}
+      viewport={{once:false, amount:0.3}}
       transition={{staggerChildren: 0.5}}
     >
       <TitleServices

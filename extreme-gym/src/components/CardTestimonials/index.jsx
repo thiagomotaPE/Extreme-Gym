@@ -22,10 +22,10 @@ const cardAnimate={
 const CardTestimonials = ({variant, description}) => {
   return (<>
     <Container
-      initial={"offscreen"}
-      whileInView={"onscreen"}
-      viewport={{once:false, amount:0.6}}
-      variants={cardAnimate}
+      // initial={"offscreen"}
+      // whileInView={"onscreen"}
+      // viewport={{once:false, amount:0.6}}
+      // variants={cardAnimate}
     >
       <CardPhoto variant={variant}></CardPhoto>
       <CardDescription>{description}</CardDescription>
