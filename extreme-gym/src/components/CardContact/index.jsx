@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const cardAnimate={
   offscreen:{
-    x: 100,
+    x: 50,
     opacity: 0
   },
 

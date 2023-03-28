@@ -5,7 +5,7 @@ import { CardTestimonials } from '../../CardTestimonials'
 
 const titleAnimate={
   offscreen:{
-    x: 100,
+    x: 50,
     opacity: 0
   },
 
