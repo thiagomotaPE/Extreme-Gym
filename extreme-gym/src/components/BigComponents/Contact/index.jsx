@@ -4,7 +4,7 @@ import { Background, TitleContact } from './styles'
 
 const titleAnimate={
   offscreen:{
-    x: 100,
+    x: 40,
     opacity: 0
   },
 
