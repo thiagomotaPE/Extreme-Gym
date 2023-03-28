@@ -5,11 +5,11 @@ import { Background, Description, TitleDescription, ResumeDescription, Img1, Img
 const descriptionAnimate={
   offscreen:{
     x: -100,
-    opacity:0
+    opacity:1
   },
 
   onscreen:{
-    x: 0,
+    x: -100,
     opacity: 1,
     transition: {
       type: "spring",

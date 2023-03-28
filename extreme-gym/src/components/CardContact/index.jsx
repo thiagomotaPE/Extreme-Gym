@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 const cardAnimate={
   offscreen:{
     x: 50,
-    opacity: 0
+    opacity: 1
   },
 
   onscreen:{
-    x: 1,
+    x: 50,
     opacity: 1,
     transition: {
       type: "spring",
