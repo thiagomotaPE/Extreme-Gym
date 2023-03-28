@@ -3,7 +3,7 @@ import { Container, CardDescription, CardPhoto } from './styles'
 
 const cardAnimate={
   offscreen:{
-    y: 100,
+    y: 20,
     opacity: 0
   },
 
@@ -14,7 +14,7 @@ const cardAnimate={
       type: "spring",
       bounce: 0,
       duration:0.6,
-      delay:0.4
+      delay:0.2
     }
   }
 }
@@ -22,10 +22,10 @@ const cardAnimate={
 const CardTestimonials = ({variant, description}) => {
   return (<>
     <Container
-      // initial={"offscreen"}
-      // whileInView={"onscreen"}
-      // viewport={{once:false, amount:0.6}}
-      // variants={cardAnimate}
+      initial={"offscreen"}
+      whileInView={"onscreen"}
+      viewport={{once:false, amount:0.6}}
+      variants={cardAnimate}
     >
       <CardPhoto variant={variant}></CardPhoto>
       <CardDescription>{description}</CardDescription>
