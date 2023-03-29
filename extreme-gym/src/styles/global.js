@@ -11,7 +11,6 @@ export const GlobalStyle = createGlobalStyle`
   html{
     scroll-behavior: smooth;
     scroll-padding-top: 70px;
-    overflow-x: hidden;
 
     @media (max-width: 600px){
       scroll-padding-top: 0px;  
