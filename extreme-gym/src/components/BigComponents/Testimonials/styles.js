@@ -12,6 +12,7 @@ export const Background = styled(motion.div)`
     }
 
     div.cardsContainer{
+        margin-top: -10px;
         @media (min-width: 800px){
             display: flex;
             flex-direction: row;
