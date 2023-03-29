@@ -38,40 +38,30 @@ const About = () => {
         </ResumeDescription>
       </Description>
       <Img1
-        // initial={{
-        //   x: 0,
-        //   y:40,
-        //   opacity:0,
-        // }}
-        // whileInView={{
-        //   x:-100,
-        //   y:40,
-        //   opacity: 1,
-        //   transition: {
-        //     type: "spring",
-        //     bounce: 0,
-        //     duration:1,
-        //     delay:0.4
-        //   }
-        // }}
+        initial={{
+          opacity:0
+        }}
+        whileInView={{
+          opacity: 1,
+          transition: {
+            type: "spring",
+            duration:1,
+            delay:0.3
+          }
+        }}
       ></Img1>
       <Img2
-        // initial={{
-        //   x: 0,
-        //   y:15,
-        //   opacity:0
-        // }}
-        // whileInView={{
-        //   x:-75,
-        //   y:15,
-        //   opacity: 1,
-        //   transition: {
-        //     type: "spring",
-        //     bounce: 0,
-        //     duration:1,
-        //     delay:0.4
-        //   }
-        // }}
+        initial={{
+          opacity:0
+        }}
+        whileInView={{
+          opacity: 1,
+          transition: {
+            type: "spring",
+            duration:1,
+            delay:0.5
+          }
+        }}
       ></Img2>
     </Background>
   )
