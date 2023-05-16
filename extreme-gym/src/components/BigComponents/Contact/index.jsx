@@ -24,7 +24,7 @@ const Contact = () => {
     <Background id='contact'
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{once:false, amount:0.8}}
+      viewport={{once:true, amount:0.8}}
       transition={{staggerChildren: 0.5}}
     >
       <TitleContact

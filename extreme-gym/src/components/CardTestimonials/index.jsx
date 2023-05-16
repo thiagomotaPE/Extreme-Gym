@@ -24,7 +24,7 @@ const CardTestimonials = ({variant, description}) => {
     <Container
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{once:false, amount:0.6}}
+      viewport={{once:true, amount:0.6}}
       variants={cardAnimate}
     >
       <CardPhoto variant={variant}></CardPhoto>

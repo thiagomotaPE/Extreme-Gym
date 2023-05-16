@@ -24,7 +24,7 @@ const About = () => {
     <Background id='about'
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{once:false, amount:0.3}}
+      viewport={{once:true, amount:0.3}}
       transition={{staggerChildren: 0.5}}
     >
       <Description>

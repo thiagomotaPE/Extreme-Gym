@@ -24,7 +24,7 @@ const CardServices = ({variant, title}) => {
     <Card variant={variant}
       initial={"offscreen"}
       whileInView={"onscreen"}
-      viewport={{once:false, amount:0.6}}
+      viewport={{once:true, amount:0.6}}
       variants={cardAnimate}
     >
       <TitleCard>{title}</TitleCard>
